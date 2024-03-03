@@ -6,13 +6,13 @@ Run the above program and extend it to accept only alphanumeric input - for exam
 using System;
 using System.Linq;
 
-namespace PasswordChecker
+namespace PasswordCheckingProgress
 {
-    class Program
+    class Task3
     {
         static void Main(string[] args)
         {
-            const string correctPassword = "Password123!";
+            const string correctPassword = "Loveyou3000!";
             int attempts = 0;
 
             while (attempts < 3)
@@ -24,7 +24,7 @@ namespace PasswordChecker
                 {
                     if (input == correctPassword)
                     {
-                        Console.WriteLine("Welcome, professor!");
+                        Console.WriteLine("Welcome, sweeter!");
                         return;
                     }
                     else
@@ -34,7 +34,7 @@ namespace PasswordChecker
                 }
                 else
                 {
-                    Console.WriteLine("Invalid input. Password must be alphanumeric with at least one special character.");
+                    Console.WriteLine("Invalid input. Password must contain alphanumeric and at least one special character.");
                 }
 
                 attempts++;
