@@ -10,9 +10,9 @@ You are required to build a program that converts the score to grade based on th
  */
 using System;
 
-namespace SimpleGradeConverter
+namespace ConvertScoreToGrade
 {
-    class Program
+    class Task2
     {
         static void Main(string[] args)
         {
