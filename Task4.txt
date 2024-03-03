@@ -1,0 +1,13 @@
+a.	Explore and tabulate five Programming languages along with the most popular applications of each of these languages.  
+Answer: 
+	
+Python:	Data Science (NumPy, Pandas, SciPy), Web Development (Django, Flask), Artificial Intelligence (TensorFlow, PyTorch), Automation (Scripting), Game Development (Pygame)
+JavaScript:	Web Development (React, Angular, Vue.js), Front-end Development, Server-side Development (Node.js), Mobile App Development (React Native)
+Java:	Enterprise Applications (Spring Framework), Android App Development, Web Development (JavaServer Faces, Spring MVC), Big Data Processing (Hadoop)
+C++:	Game Development (Unreal Engine, Unity), System/Application Software (Operating Systems, Compilers), Embedded Systems, High-Performance Computing
+Ruby:	Web Development (Ruby on Rails), Automation (Chef, Puppet), Testing (RSpec), Data Analysis (RubyMine)
+
+b.	Find an example of software used in business and report their use e.g., ATM machine or shopping centre pay machine. What sort of computer programming languages are used in such applications and who developed them?
+Answer:
+
+An example of software widely used in business is the Point of Sale (POS) system, which is used in retail environments to facilitate sales transactions. These systems manage the checkout process, inventory, customer purchases, and generate receipts, with some integrating additional features like loyalty programs and business analytics. POS systems are designed to be user-friendly, often featuring touch screen interfaces for ease of use by cashiers. The development of POS software typically involves programming languages such as Java, for its portability and robust security features; C++, known for its high performance, especially in transaction processing and hardware interfacing; and Python, for automation and backend scripting tasks. This blend of technologies ensures that POS systems are reliable, efficient, and versatile, catering to the dynamic needs of modern retail operations. Java's cross-platform capabilities make it particularly suited for creating POS software that can run on various devices and operating systems, ensuring broad compatibility across retail hardware setups.
