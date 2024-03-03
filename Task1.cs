@@ -4,21 +4,21 @@ In this task, you are to build a program that receives two inputs and displays t
  */
 using System;
 
-namespace SimpleCalculator
+namespace BasicCalculator
 {
-    class Program
+    class Task1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Simple Calculator in C#\r");
+            Console.WriteLine("Basic Calculator in C#\r");
             Console.WriteLine("------------------------\n");
 
             // Ask the user to type the first number.
-            Console.WriteLine("Type a number, and then press Enter");
+            Console.WriteLine("Give me a number, and press Enter");
             double num1 = Convert.ToDouble(Console.ReadLine());
 
             // Ask the user to type the second number.
-            Console.WriteLine("Type another number, and then press Enter");
+            Console.WriteLine("Give me the second number, and press Enter");
             double num2 = Convert.ToDouble(Console.ReadLine());
 
             // Perform the calculations.
@@ -34,7 +34,7 @@ namespace SimpleCalculator
             Console.WriteLine($"{num1} / {num2} = {quotient}");
 
             // Wait for the user to respond before closing.
-            Console.Write("Press any key to close the calculator console app...");
+            Console.Write("Press any key to close...");
             Console.ReadKey();
         }
     }
