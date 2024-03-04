@@ -24,7 +24,7 @@ namespace PasswordCheckingProgress
                 {
                     if (input == correctPassword)
                     {
-                        Console.WriteLine("Welcome, sweeter!");
+                        Console.WriteLine("Welcome, sweetie!");
                         return;
                     }
                     else
